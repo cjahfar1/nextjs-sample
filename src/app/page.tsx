@@ -5,9 +5,18 @@ export default function Home() {
   return (
     <div>
       <h1>This is my home page</h1>
-      <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
-      <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
-      <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
+      <div>
+        <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
+      </div>
+      <div>
+        <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
+      </div>
+      <div>
+        <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
+      </div>
+      <h3>
+        This is home page contents
+      </h3>
     </div>
   )
 }

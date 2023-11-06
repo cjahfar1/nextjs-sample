@@ -6,6 +6,8 @@ export default function Home() {
     <div>
       <h1>This is my home page</h1>
       <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
+      <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
+      <Image src={'/images/kodak.jpeg'} alt='Sample image' width={300} height={300}/>
     </div>
   )
 }
